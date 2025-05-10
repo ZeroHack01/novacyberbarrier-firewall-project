@@ -1,5 +1,11 @@
-# novacyberbarrier-firewall-project
-NovaCyberBarrier is a Linux-based CLI firewall management tool written in Python. It utilizes iptables to manage firewall rules, allowing users to easily block or allow IP addresses, add/remove rules, and apply rate limits. With features like action logging and persistent rules, it offers an effective solution for robust network security.
+# 🔥 NovaCyberBarrier Firewall Project
+
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg) 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Platform](https://img.shields.io/badge/Platform-Linux-green)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
+NovaCyberBarrier is a Linux-based CLI firewall management tool written in Python. It uses **iptables** to allow you to easily manage IP access, apply rate limits, and persist your firewall rules.
 
 ## Features
 
