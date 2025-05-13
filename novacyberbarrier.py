@@ -1,4 +1,6 @@
-# Novacyberbarrier firewall project 
++ #!/usr/bin/env python3
+# Novacyberbarrier firewall project
+
 import subprocess
 import sys
 import logging
