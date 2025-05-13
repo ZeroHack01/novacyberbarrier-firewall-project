@@ -16,6 +16,13 @@
   <b>NovaCyberBarrier</b> is a powerful Linux-based CLI firewall management tool written in Python. It leverages <b>iptables</b> to help you easily manage IP access, apply rate limits, and persist your firewall rules with simple commands.
 </p>
 
+<p align="center">
+  <a href="#-installation">Quick Install</a> •
+  <a href="#-feature-details">Features</a> •
+  <a href="#-quick-command-reference">Commands</a> •
+  <a href="#-requirements">Requirements</a>
+</p>
+
 </div>
 
 ---
@@ -167,17 +174,25 @@ sudo python3 novacyberbarrier.py save
 
 ```bash
 # Clone the Repository
-git clone https://github.com/yourusername/novacyberbarrier.git
-cd novacyberbarrier
+git clone https://github.com/ZeroHack01/novacyberbarrier-firewall-project.git
+cd novacyberbarrier-firewall-project
 
-# Make the script executable (optional)
+# Make the script executable
 chmod +x novacyberbarrier.py
 
 # Run with root privileges
-sudo python3 novacyberbarrier.py [command] [arguments]
+sudo ./novacyberbarrier.py [command] [arguments]
 ```
 
 </div>
+
+#### One-Line Quick Install (Copy & Paste):
+
+```bash
+git clone https://github.com/ZeroHack01/novacyberbarrier-firewall-project.git && cd novacyberbarrier-firewall-project && chmod +x novacyberbarrier.py && sudo ./novacyberbarrier.py list
+```
+
+
 
 ---
 
@@ -204,15 +219,15 @@ sudo python3 novacyberbarrier.py [command] [arguments]
 ### 📊 Project Status
   
 <img src="https://img.shields.io/maintenance/yes/2025" alt="Maintenance" />
-<img src="https://img.shields.io/github/last-commit/yourusername/novacyberbarrier" alt="Last Commit" />
+<img src="https://img.shields.io/github/last-commit/ZeroHack01/novacyberbarrier-firewall-project" alt="Last Commit" />
 
 ### 👨‍💻 Contribute
   
-<a href="https://github.com/yourusername/novacyberbarrier/issues">
-  <img src="https://img.shields.io/github/issues/yourusername/novacyberbarrier?style=for-the-badge" alt="Issues" />
+<a href="https://github.com/ZeroHack01/novacyberbarrier-firewall-project/issues">
+  <img src="https://img.shields.io/github/issues/ZeroHack01/novacyberbarrier-firewall-project?style=for-the-badge" alt="Issues" />
 </a>
-<a href="https://github.com/yourusername/novacyberbarrier/pulls">
-  <img src="https://img.shields.io/github/issues-pr/yourusername/novacyberbarrier?style=for-the-badge" alt="Pull Requests" />
+<a href="https://github.com/ZeroHack01/novacyberbarrier-firewall-project/pulls">
+  <img src="https://img.shields.io/github/issues-pr/ZeroHack01/novacyberbarrier-firewall-project?style=for-the-badge" alt="Pull Requests" />
 </a>
 
 </div>
